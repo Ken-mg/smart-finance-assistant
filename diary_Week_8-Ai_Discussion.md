@@ -1,37 +1,34 @@
-📓 Developer's Diary – Week 8
+📓 Developer’s Diary – Week 8
+Entry 1 – Loading and Inspecting CSV Data
 
-## Entry 1 – Loading CSV Data
+Artifact: Screenshot of pandas loading the transaction CSV file showing df.head() output.
 
-**Artifact:** Screenshot of pandas loading CSV in notebook
-<img width="515" height="406" alt="image" src="https://github.com/user-attachments/assets/6c6eb5d3-37fd-42f0-a5df-6f222f8dac58" />
+Context: I loaded a transaction dataset into my Smart Finance Assistant project using pandas.
+
+My Prompt: "Help me load and display CSV transaction data using pandas"
+
+AI Response Summary: Provided code using pd.read_csv() to load the file and df.head() to preview the dataset.
+
+My Critique/Improvement: I checked the file path and confirmed the data was correctly loaded into a DataFrame.
+
+Result: Successfully loaded the dataset and displayed the first rows of transactions.
+
+Reflection: I learned how to import and inspect structured financial data using pandas. This is the first step in building a finance analysis tool.
+
+Entry 2 – Understanding Data Structure and Cleaning
+
+Artifact: Screenshot of df.info() showing data types before cleaning (Amount column as object).
+<img width="539" height="531" alt="image" src="https://github.com/user-attachments/assets/4afaa8dd-a141-4f1a-b73b-cdc22db84414" />
 
 
-**Context:** I loaded a transaction CSV file for my Smart Finance Assistant project.
+Context: I analyzed the structure of the dataset to understand data types and identify issues before performing financial calculations.
 
-**My Prompt:** "Help me load and display CSV transaction data using pandas"
+My Prompt: "Why is my Amount column not numeric and how can I fix it?"
 
-**AI Response Summary:** Provided code using pd.read_csv() and df.head() to inspect data.
+AI Response Summary: Explained that the Amount column contained currency symbols, so it was stored as text (object type), and needed cleaning before analysis.
 
-**My Critique/Improvement:** I verified the file path and ensured correct display in notebook.
+My Critique/Improvement: I converted the Amount column from string to numeric format by removing currency symbols and converting it to float.
 
-**Result:** Successfully loaded and displayed transaction dataset.
+Result: The dataset was cleaned and ready for financial analysis (Amount column converted to numeric type).
 
-**Reflection:** I learned how to import and inspect structured financial data using pandas. This is the foundation of my finance assistant.
-
----## Entry 2 – Understanding Project Setup
-
-**Artifact:** Screenshot of GitHub repository structure and assignment instructions
-<img width="698" height="240" alt="image" src="https://github.com/user-attachments/assets/a0588c77-d09a-4b91-96fe-76a123a3c73c" />
-<img width="560" height="404" alt="image" src="https://github.com/user-attachments/assets/09e6e9f8-6369-40fc-9c89-a3e4cf269cbe" />
-
-**Context:** I was unsure about what was required for Week 8 of the Smart Finance Assistant project.
-
-**My Prompt:** "What exactly should I do for Week 8 in the Smart Finance Assistant assignment?"
-
-**AI Response Summary:** Explained that Week 8 focuses on setting up the repository, loading CSV data with pandas, and documenting AI collaboration in the diary.
-
-**My Critique/Improvement:** I clarified that I only needed to focus on CSV loading and diary documentation, not advanced features like chat or RAG yet.
-
-**Result:** I learned the importance of carefully interpreting assignment requirements before starting implementation, to avoid overengineering early stages of the project.
-
-**Reflection:** I learned that this project is incremental and that understanding requirements clearly before coding is important. AI helped me avoid doing unnecessary advanced work too early.
+Reflection: I learned that real-world financial data is often messy and must be cleaned before analysis. Proper data types are essential for correct calculations and insights.
