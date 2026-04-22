@@ -1,8 +1,9 @@
 📓 Developer’s Diary – Week 9
-Entry 1 – Loading and Inspecting Cells 
-Artifact : screenshot of the different cells to be tested 
+Entry 1 👌 – Loading and Inspecting Cells 
 
-Context : I ran the various “hands-on AI configuration & connection test” scenarios to see if the cells are working properly:
+Artifact : Screenshot of the different cells to be tested 
+
+Context : I ran the various “hands-on AI configuration & connection test” scenarios to see if the cells are working properly.
 
 Encounter Issues : One of the cells displays a “module not found” error 
 
@@ -12,14 +13,22 @@ Ai Response Summary : Explaining where is the issues . Providing code to install
 
 My Critique / Improvment : I added the function provided by Claude and confirmed that without the command `!pip install hand-on-ai`, the cell will always return the same error.
 
-Result : Cell's was successfully load with the hand-on-ai installed . 
+Result ✅ : Cell's was successfully load with the hand-on-ai installed . 
 
 Reflection : I learned how to install Hand-On-AI as part of the program. I also learned the importance of running the cells properly to verify that they work correctly and to identify and understand any issues that may arise.
 
-Entry 2 : Starting runnning and editing cell's programming 
+Entry 2 👌 : Starting runnning and editing cell's programming 
 
 Context : I started reading and following the steps in the section: Building Processing Skills 
 
-My prompt : How can I load my old dataset in this case? Note that I've already placed my old dataset in a previous cell named "sample_transactioncsv".
+Artifact : Screenshot before changes were made to the foundation cell 
 
-Ai Answer summury : Provided modification regarding the cells . Help to load csv transaction files on python cells .
+My prompt : Do you think it's better to load our old csv transaction files instead of creating a new sample ? 
+
+Ai Answer summury : Affirmed that using previous csv files was a pretty good idea . Provide python code .
+
+Improvement : I added important pandas as pd functions and url to load the sample_transaction.csv files . 
+
+Result ✅:  The cell's is proprely organised without adding or creating another sample data transaction . Using the sample transaction .csv files was a pretty good idea .
+
+Reflection : I think that using the sample_transaction.csv was the best idea in this situation as result as simplying and also organising the cell's in a proper way . Using Ai and asked him to confirmed my idea was really helpfull to make the work proprer and well organized . 
