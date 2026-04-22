@@ -1,0 +1,25 @@
+📓 Developer’s Diary – Week 9
+Entry 1 – Loading and Inspecting Cells 
+Artifact : screenshot of the different cells to be tested 
+
+Context : I ran the various “hands-on AI configuration & connection test” scenarios to see if the cells are working properly:
+
+Encounter Issues : One of the cells displays a “module not found” error 
+
+My prompt : Could you explain the problem in this cell so I can understand why it isn't working?
+
+Ai Response Summary : Explaining where is the issues . Providing code to install hands-on-ai in Colab environment . 
+
+My Critique / Improvment : I added the function provided by Claude and confirmed that without the command `!pip install hand-on-ai`, the cell will always return the same error.
+
+Result : Cell's was successfully load with the hand-on-ai installed . 
+
+Reflection : I learned how to install Hand-On-AI as part of the program. I also learned the importance of running the cells properly to verify that they work correctly and to identify and understand any issues that may arise.
+
+Entry 2 : Starting runnning and editing cell's programming 
+
+Context : I started reading and following the steps in the section: Building Processing Skills 
+
+My prompt : How can I load my old dataset in this case? Note that I've already placed my old dataset in a previous cell named "sample_transactioncsv".
+
+Ai Answer summury : Provided modification regarding the cells . Help to load csv transaction files on python cells .
