@@ -71,3 +71,37 @@ Improvement : I added important pandas as pd functions and url to load the sampl
 Result ✅: The cell's is proprely organised without adding or creating another sample data transaction . Using the sample transaction .csv files was a pretty good idea .Week9 ent 2 aft
 <img width="692" height="560" alt="Week9 ent 2 aft" src="https://github.com/user-attachments/assets/58061b50-d9af-4e1c-81b5-cdc51f0a7bae" />
 
+📓 Developer’s Diary – Week 10 Entry 1 👌 – Loading and editing main cell 
+
+Context : I startded understanding and editing Foundation Data processing Functions cells 
+
+Artifact : Screenshoot before changes were applicated 
+
+<img width="558" height="312" alt="image" src="https://github.com/user-attachments/assets/88113b0a-8f01-4bed-bd9f-78bbe85e49ad" />
+
+My Prompt 💰: Create a function to load CSV transaction data with Date, Amount, Category,
+    Description columns. Handle dollar signs in Amount, missing values, and
+    data validation. Include clear business-focused error messages." 
+
+Result✅: Claude provide a clear function to load a csv Transaction data with Date , Amount , Category and Description collums . However , i realized that i can load the "sample_transaction.csv" files for all the cells to facilitate the work and avoid misunderstangin about data . 
+
+
+Prompt 💰: To facilitate the work , is it possible to simply load and clead my sample_transaction.csv files instead of creating another one ? if so could you provide me a clear fonction about it ? 
+
+Ai summary answer 🤖: Provide clearly a fonction to load and clead the transaction csv files 
+
+Result ✅:
+<img width="710" height="650" alt="image" src="https://github.com/user-attachments/assets/ead4f881-de2c-40e7-a5e9-cc8bb1c1a165" />
+
+
+Entry 2 : Editing Spending Analysis function cells 
+
+Prompt : Could you help me understand this cell first? Then I'd like you to create a function that would analyze the data , spending by category, calculate the percentages, identify the different spending areas, and generate actionable financial insights formatted for business presentations. Important note: Include category, percentage, and business insights. I already have a CSV file called transaction.csv, so it’s better to stick with that file. 
+
+Ai Summary answer : Claude provided a clear explanation about the the requirement need for this cells . Provided a full function with all the requirement needed such as percentage calculation , spending areas and business insights .
+
+Result ✅: The cell is neatly organized. During testing, all requirements were clearly specified, with additional elements such as icons to represent the progress bar as a percentage. 
+<img width="519" height="185" alt="image" src="https://github.com/user-attachments/assets/37c9395e-0cec-497c-a894-155e2c6e8e8d" />
+
+Reflection : I learned much more about how to use AI through the exercises I didn't understand, and I learned the importance of distinguishing between daily needs and other expenses. 
+
