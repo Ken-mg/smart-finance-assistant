@@ -79,8 +79,7 @@ Artifact : Screenshoot before changes were applicated
 
 <img width="558" height="312" alt="image" src="https://github.com/user-attachments/assets/88113b0a-8f01-4bed-bd9f-78bbe85e49ad" />
 
-My Prompt 💰: Create a function to load CSV transaction data with Date, Amount, Category,
-    Description columns. Handle dollar signs in Amount, missing values, and
+My Prompt 💰: Create a function to load CSV transaction data with Date, Amount, Category, Description columns. Handle dollar signs in Amount, missing values, and
     data validation. Include clear business-focused error messages." 
 
 Result✅: Claude provide a clear function to load a csv Transaction data with Date , Amount , Category and Description collums . However , i realized that i can load the "sample_transaction.csv" files for all the cells to facilitate the work and avoid misunderstangin about data . 
@@ -104,4 +103,39 @@ Result ✅: The cell is neatly organized. During testing, all requirements were 
 <img width="519" height="185" alt="image" src="https://github.com/user-attachments/assets/37c9395e-0cec-497c-a894-155e2c6e8e8d" />
 
 Reflection : I learned much more about how to use AI through the exercises I didn't understand, and I learned the importance of distinguishing between daily needs and other expenses. 
+
+Developer Diary  - Week 11 Entry 1 : Hands on ai configuration 
+
+Context : After examining and launching cells functions , hands on ai always had issues with the configuration and can't get it to be recognized in the cell. According to Blackboard , i've tried to follow the hand.on.ai installation as well as adding the new Api Key . 
+
+Artifact : Screenshoot of Hand-on-Ai Configuration Cells 
+
+<img width="357" height="212" alt="image" src="https://github.com/user-attachments/assets/05823c70-a8ad-4450-ba4c-8395ff9cd5dc" />
+
+Artifact of Connection Test : 
+
+<img width="366" height="498" alt="image" src="https://github.com/user-attachments/assets/ba91b7cc-6e66-4546-b88f-d91ebfe19310" />
+
+Prompt used : "Could you explain why my test connection cells  still not working even after drag and drop the correct function provided by Kevin on Blackboard . Here is the codeline given : from hands_on_ai.chat import get_response
+# Test the connection to the hands-on-ai server
+try:
+    response = get_response("Hello! I'm building a Smart Finance Assistant.")
+    print("✅ Hands-on-AI connection successful!")
+    print(f"Response: {response}")
+except Exception as e:
+    print(f"❌ Connection issue: {e}")
+    print("You can still work on the data processing foundation without this.")" 
+
+
+AI Answer Summary : 
+Claude provided clear explanation regarding to the running of hand's on ai configuration / installation .Gaves python fuction to had on hand's-on-ai configuration such as HOA installation code .  Also  provided advices such as disable any Vpn tools to avoid lose connection to hand-on-ai server and ensure that it works correctly  . 
+
+
+Result : After working a couple of times on the cells , some of them stil not working due to connection issues . However , due to claude ai help , the work goes way better with a clear installation of hands-on-ai .
+
+Entry 2 : Working on Foundation data processing Function Cell's 
+
+Context : After installing proprely Hand's on Ai  , i've tried to continue my work and finish editing other cells . 
+
+AI Prompt used : 
 
