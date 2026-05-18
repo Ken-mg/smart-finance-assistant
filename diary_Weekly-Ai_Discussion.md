@@ -1,9 +1,10 @@
 📓 Developer’s Diary – Week 8
 Entry 1 – Loading and Inspecting CSV Data
 
+Context: I loaded a transaction dataset into my Smart Finance Assistant project using pandas.
+
 Artifact: Screenshot of pandas loading the transaction CSV file showing df.head() output.
 
-Context: I loaded a transaction dataset into my Smart Finance Assistant project using pandas.
 
 My Prompt: "Help me load and display CSV transaction data using pandas"
 
@@ -33,11 +34,14 @@ Result: The dataset was cleaned and ready for financial analysis (Amount column 
 
 Reflection: I learned that real-world financial data is often messy and must be cleaned before analysis. Proper data types are essential for correct calculations and insights.
 
-.
+
+
 
 📓 Developer’s Diary – Week 9 Entry 1 👌 – Loading and Inspecting Cells
 
-Artifact : Screenshot of the different cells to be testedWeek 9  screenshoot ent 1
+
+Artifact : Screenshot of the different cells to be tested
+
 <img width="773" height="623" alt="Week 9  screenshoot ent 1" src="https://github.com/user-attachments/assets/e2b1c3ab-d56b-4960-9562-8dac2a3444ce" />
 
 Context : I ran the various “hands-on AI configuration & connection test” scenarios to see if the cells are working properly.
@@ -50,26 +54,48 @@ Ai Response Summary : Explaining where is the issues . Providing code to install
 
 My Critique / Improvment : I added the function provided by Claude and confirmed that without the command !pip install hand-on-ai, the cell will always return the same error.
 
-Result ✅ : Cell's was successfully load with the hand-on-ai installed .Week 9  screenshoot ent 1
+Result ✅ : Cell's was successfully load with the hand-on-ai installed .
+
 <img width="937" height="792" alt="Week9 Ent1 aft" src="https://github.com/user-attachments/assets/b407dba0-d8b3-4601-94b6-96c149406962" />
 
 Reflection : I learned how to install Hand-On-AI as part of the program. I also learned the importance of running the cells properly to verify that they work correctly and to identify and understand any issues that may arise.
+
+
 
 Entry 2 👌 : Starting runnning and editing cell's programming
 
 Context : I started reading and following the steps in the section: Building Processing Skills
 
-Artifact : Screenshot before changes were made to the foundation cellWeek 9 ent 2 bfr
+Artifact : Screenshot before changes were made to the foundation cell
+
 <img width="833" height="421" alt="Week 9 ent 2 bfr" src="https://github.com/user-attachments/assets/804bcea2-9d62-4115-97c1-d33d4a9a62bf" />
 
-My prompt : Do you think it's better to load our old csv transaction files instead of creating a new sample ?
+My prompt : In this cell i've tried to input and loand my csv file and indeed it worked . However when after save and closing everything , my csv files disappeard even if i have it into a folder on google collab . Can you advice me how to correct it and make it work ? 
 
-Ai Answer summury : Affirmed that using previous csv files was a pretty good idea . Provide python code .
+Artifact : Screenshoot of Ai Collaboration  
 
-Improvement : I added important pandas as pd functions and url to load the sample_transaction.csv files .
 
-Result ✅: The cell's is proprely organised without adding or creating another sample data transaction . Using the sample transaction .csv files was a pretty good idea .Week9 ent 2 aft
+<img width="582" height="949" alt="image" src="https://github.com/user-attachments/assets/bf021e7d-e3d4-4937-8883-71e7e5dd853d" />
+
+
+Ai Answer summury : First of all , Claude AI gaves solution regarding loading files issues with a step & a sample that should be followed to load my csv files on the cell's  .
+
+Improvement : However even after providing clear step and solution about it , i think that loading csv files by using a github url is way more better and easier for the work . Therefore i asked Claude what he think about it and indeed he agreed that using url methods was way much easier solution . Also , Claude provided step to load the csv files by using url methods 
+
+Artifact : Screenshoot of Ai Discussion , improvement section 
+
+
+<img width="564" height="935" alt="image" src="https://github.com/user-attachments/assets/a20b3de1-69c6-4e3e-b04c-c6366d7213cf" />
+
+
+Result ✅: The cell's is proprely organised without adding or creating another sample data transaction . Using the sample transaction .csv files was a pretty good idea .
+
+
 <img width="692" height="560" alt="Week9 ent 2 aft" src="https://github.com/user-attachments/assets/58061b50-d9af-4e1c-81b5-cdc51f0a7bae" />
+
+
+Reflection : When i was looking through the prompt gaves on the cell , i've start firstly to understood how can i collaborate with ai to make this cell's work . Then i saw that it wasn't mandatory to create a realistic template but loading one was completly enough . Then when i asked Claude Ai , i knew that loading a cell's with url was easier for me but also saves a quit of time of work and make the understanding easier . Moreover , even if that claude AI gave a solution that could worked , i think that using a github url was better that using google drive methods becausee it's shorter , faster and also have less step to do to access this files . Therefore i've told to myself that sometimes even if AI can be helpfull , human intervention - reflection and thinking will make the work way better than just asking a solution to a tools . 
+
 
 📓 Developer’s Diary – Week 10 Entry 1 👌 – Loading and editing main cell 
 
@@ -79,27 +105,36 @@ Artifact : Screenshoot before changes were applicated
 
 <img width="558" height="312" alt="image" src="https://github.com/user-attachments/assets/88113b0a-8f01-4bed-bd9f-78bbe85e49ad" />
 
-My Prompt 💰: Create a function to load CSV transaction data with Date, Amount, Category, Description columns. Handle dollar signs in Amount, missing values, and
-    data validation. Include clear business-focused error messages." 
+My Prompt 💰:  " 
 
-Result✅: Claude provide a clear function to load a csv Transaction data with Date , Amount , Category and Description collums . However , i realized that i can load the "sample_transaction.csv" files for all the cells to facilitate the work and avoid misunderstangin about data . 
-
-
-Prompt 💰: To facilitate the work , is it possible to simply load and clead my sample_transaction.csv files instead of creating another one ? if so could you provide me a clear fonction about it ? 
 
 Ai summary answer 🤖: Provide clearly a fonction to load and clead the transaction csv files 
 
-Result ✅:
+
+Result✅: 
+
 <img width="710" height="650" alt="image" src="https://github.com/user-attachments/assets/ead4f881-de2c-40e7-a5e9-cc8bb1c1a165" />
 
 
 Entry 2 : Editing Spending Analysis function cells 
 
+Artifact : Screenshoot before editing cell's with AI Collaboration 
+
+<img width="662" height="402" alt="image" src="https://github.com/user-attachments/assets/97dab42d-ce8f-4256-90e5-7200fc081deb" />
+
+
+
 Prompt : Could you help me understand this cell first? Then I'd like you to create a function that would analyze the data , spending by category, calculate the percentages, identify the different spending areas, and generate actionable financial insights formatted for business presentations. Important note: Include category, percentage, and business insights. I already have a CSV file called transaction.csv, so it’s better to stick with that file. 
 
 Ai Summary answer : Claude provided a clear explanation about the the requirement need for this cells . Provided a full function with all the requirement needed such as percentage calculation , spending areas and business insights .
 
+<img width="1352" height="740" alt="image" src="https://github.com/user-attachments/assets/d87ac5c8-fd29-4c0c-9246-3308134698a5" />
+<img width="1451" height="1013" alt="image" src="https://github.com/user-attachments/assets/61a8f8f9-0ffa-4492-ae71-b53be42ba603" />
+
 Result ✅: The cell is neatly organized. During testing, all requirements were clearly specified, with additional elements such as icons to represent the progress bar as a percentage. 
+
+Artifact : Screenshoot of the Cell's with AI Collaboration 
+
 <img width="519" height="185" alt="image" src="https://github.com/user-attachments/assets/37c9395e-0cec-497c-a894-155e2c6e8e8d" />
 
 Reflection : I learned much more about how to use AI through the exercises I didn't understand, and I learned the importance of distinguishing between daily needs and other expenses. 
@@ -128,14 +163,17 @@ except Exception as e:
 
 
 AI Answer Summary : 
-Claude provided clear explanation regarding to the running of hand's on ai configuration / installation .Gaves python fuction to had on hand's-on-ai configuration such as HOA installation code .  Also  provided advices such as disable any Vpn tools to avoid lose connection to hand-on-ai server and ensure that it works correctly  . 
+Claude provided clear explanation about connnection issuees . Give advice about it such as mailing Keving with some exact information. 
 
+Result :
 
-Result : After working a couple of times on the cells , some of them stil not working due to connection issues . However , due to claude ai help , the work goes way better with a clear installation of hands-on-ai .
+Entry 2 : Editing Foundation Data Processing Functions 
 
-Entry 2 : Working on Foundation data processing Function Cell's 
+Context : After installing Hand-On-Ai and trying to make it work , I continued to modify the remaining cells. In addition to making changes especially the foundation data processing functions cells . More over , I tried to understand how they work. 
 
-Context : After installing proprely Hand's on Ai  , i've tried to continue my work and finish editing other cells . 
+AI Prompt used : Based on spending analysis data . Create a professional financial recommendation . Include specific savings opportunities , spending pattern , obsevation and actionable advice formated for a personal finance app user . 
 
-AI Prompt used : 
+Result : Claude provided clear and proper result everything asked so far ( Savings oopportunities , spending pattern observations and actionable advice with top category ) . Organized cell correctly without issues . 
+
+Artifact : Testing the cell's after asking changement with ai collaboration 
 
