@@ -1,68 +1,105 @@
-📓 Developer’s Diary – Week 8
-Entry 1 – Loading and Inspecting CSV Data
 
-Context: I loaded a transaction dataset into my Smart Finance Assistant project using pandas.
+📓 Developer’s Diary – Week 8 Entry 1 : Loading and Inspecting Initial Set up Cell's 
 
-Artifact: Screenshot of pandas loading the transaction CSV file showing df.head() output.
+Context : First of all , i was looking and inspecting every cell's of the starter notebook to see the content of the files . After inspecting every cell's i've decided to started working on that . 
 
+Artifact: Screenshoot of Startup cell's .
 
-My Prompt: "Help me load and display CSV transaction data using pandas"
-
-AI Response Summary: Provided code using pd.read_csv() to load the file and df.head() to preview the dataset.
-
-My Critique/Improvement: I checked the file path and confirmed the data was correctly loaded into a DataFrame.
-
-Result: Successfully loaded the dataset and displayed the first rows of transactions.
-
-Reflection: I learned how to import and inspect structured financial data using pandas. This is the first step in building a finance analysis tool.
-
-Entry 2 – Understanding Data Structure and Cleaning
-
-Artifact: Screenshot of df.info() showing data types before cleaning (Amount column as object).
-<img width="539" height="531" alt="image" src="https://github.com/user-attachments/assets/4afaa8dd-a141-4f1a-b73b-cdc22db84414" />
+<img width="909" height="474" alt="image" src="https://github.com/user-attachments/assets/41124465-cac1-4dbd-ba9c-11d716b8288f" />
 
 
-Context: I analyzed the structure of the dataset to understand data types and identify issues before performing financial calculations.
+Artifact : Screenshoot of AI Collaboration 
 
-My Prompt: "Why is my Amount column not numeric and how can I fix it?"
+<img width="571" height="416" alt="image" src="https://github.com/user-attachments/assets/4b4669c2-da62-4371-9629-43852c91c930" />
 
-AI Response Summary: Explained that the Amount column contained currency symbols, so it was stored as text (object type), and needed cleaning before analysis.
 
-My Critique/Improvement: I converted the Amount column from string to numeric format by removing currency symbols and converting it to float.
-
-Result: The dataset was cleaned and ready for financial analysis (Amount column converted to numeric type).
-
-Reflection: I learned that real-world financial data is often messy and must be cleaned before analysis. Proper data types are essential for correct calculations and insights.
+<img width="579" height="793" alt="image" src="https://github.com/user-attachments/assets/e08e8fb1-1574-47e3-a13c-a81e7031564f" />
 
 
 
+My Prompt📜: "Should i add something else in this cell's ? I know i just have to uncomment the line below , however i just want to make sure that nothing is missing on this cell's ."
+
+AI Response Summary: Claude Ai gave a clear answer without adding any functions other than the one provided in the cells. 
+
+My Critique/Improvement: I checked the cell's and confirmed that i just have to uncomment the line below to install libraries . 
+
+Result 👌: Successfully installed hands-on-ai and loaded core libraries .
+
+<img width="755" height="536" alt="image" src="https://github.com/user-attachments/assets/5a37874e-480a-4b18-a3b9-7ac9e8664f20" />
+
+
+<img width="1708" height="500" alt="image" src="https://github.com/user-attachments/assets/b082e245-6d55-47eb-873d-1b3899f78c59" />
+
+
+
+Reflection 🧠: In the beginning , i saw the comment above the pip install gradio pandas hand-on-ai line . However , i wasn't sure that by uncommenting the line it will worked proreply . In my head i was thinking the idea about adding aditional function or someting else . But Claude Ai confirmed that my cell's is already completed as is and the only step to do was to uncomment line . 
+
+📓 Developer’s Diary – Week 8 Entry 2 : Hand's on Aai configuration 
+
+Context : After installing hand-on-ai , i've decided to configure and set up H-O-A package for advanced features 
+
+Artifact : Screenshoot of the cell's before editing it 
+
+<img width="1013" height="471" alt="image" src="https://github.com/user-attachments/assets/8a099a07-a760-4a5f-9fc2-c243c84e743e" />
+
+Artifact : screenshot of the cell launch 
+
+<img width="901" height="435" alt="image" src="https://github.com/user-attachments/assets/92b53b98-dbe9-4a2b-9607-300b17409f65" />
+
+<img width="1082" height="513" alt="image" src="https://github.com/user-attachments/assets/06619314-f476-4a4e-93ed-84a0a9c93ff5" />
+
+Result ✅ : The cell is working properly, and the AI is configured correctly using the provided API key. 
 
 📓 Developer’s Diary – Week 9 Entry 1 👌 – Loading and Inspecting Cells
 
 
 Artifact : Screenshot of the different cells to be tested
 
-<img width="773" height="623" alt="Week 9  screenshoot ent 1" src="https://github.com/user-attachments/assets/e2b1c3ab-d56b-4960-9562-8dac2a3444ce" />
+<img width="760" height="455" alt="image" src="https://github.com/user-attachments/assets/68aab226-f463-4783-a609-a47b0a7d7308" />
 
 Context : I ran the various “hands-on AI configuration & connection test” scenarios to see if the cells are working properly.
 
-Encounter Issues : One of the cells displays a “module not found” error
+Artifact : Screenshoot of after launching connection test cell's  
 
-My prompt : Could you explain the problem in this cell so I can understand why it isn't working?
+<img width="750" height="580" alt="image" src="https://github.com/user-attachments/assets/ee3a7417-f982-4133-a6af-6907b9a49101" />
 
-Ai Response Summary : Explaining where is the issues . Providing code to install hands-on-ai in Colab environment .
 
-My Critique / Improvment : I added the function provided by Claude and confirmed that without the command !pip install hand-on-ai, the cell will always return the same error.
+My prompt 📜: Could you explain the problem in this cell so I can understand why it isn't working?
 
-Result ✅ : Cell's was successfully load with the hand-on-ai installed .
+<img width="582" height="378" alt="image" src="https://github.com/user-attachments/assets/6d248f57-1631-46c5-8d34-343b44404373" />
 
-<img width="937" height="792" alt="Week9 Ent1 aft" src="https://github.com/user-attachments/assets/b407dba0-d8b3-4601-94b6-96c149406962" />
-
-Reflection : I learned how to install Hand-On-AI as part of the program. I also learned the importance of running the cells properly to verify that they work correctly and to identify and understand any issues that may arise.
+<img width="567" height="705" alt="image" src="https://github.com/user-attachments/assets/de859dfa-d869-4a47-9440-18284bd925a6" />
 
 
 
-Entry 2 👌 : Starting runnning and editing cell's programming
+<img width="572" height="649" alt="image" src="https://github.com/user-attachments/assets/adb99103-cd9e-4dd9-bfc0-23c1a6aa38a4" />
+
+
+
+Ai Response Summary : Explaining where is the issues and provides advice to encounter the issues without impacting other cell's .
+
+Improvement : I saw a lot of contradiction on the cell's especually when it come to give a comment after launching the cell's . Indeed it say that "Hands-on-Ai connected sucessfully" however in the previous and following line it say " Response : Connection error " . To resolve that i ask Claude Ai the following prompt : 
+
+
+<img width="496" height="434" alt="image" src="https://github.com/user-attachments/assets/438d66cb-f901-4122-ae3e-cb0096ed8659" />
+
+
+Ai improvement : 
+
+<img width="523" height="713" alt="image" src="https://github.com/user-attachments/assets/11710038-dd20-43ba-a99a-c4ff155eec9d" />
+
+Ai response summary 👌: Claude AI directly made changes to the cell by resolving all previous inconsistencies. It provided a summary of the changes made to the cell as well as the various responses generated after the cell was launched. 
+
+Result ✅ : Cell's was successfully running without previous contradiction .
+
+
+<img width="764" height="688" alt="image" src="https://github.com/user-attachments/assets/dfb4181a-7f99-4543-ad43-cb04969dbbfb" />
+
+
+Reflection :I learned that it wasn't just a matter of running a cell and asking artificial intelligence for a solution. It was also about understanding the various issues behind it. In fact, when I ran the program, I immediately saw the contradiction, knowing full well what I needed to fix in the cell. By guiding Claude correctly, I was able to see the importance of organizing the cells properly and identifying errors.
+
+
+📓 Developer’s Diary – Week 9 Entry 2 👌 : Starting runnning and editing cell's programming
 
 Context : I started reading and following the steps in the section: Building Processing Skills
 
